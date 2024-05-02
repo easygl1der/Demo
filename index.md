@@ -3,27 +3,26 @@
 layout: home
 
 hero:
-  name: "我的文档项目"
-  text: "A VitePress Site"
-  tagline: 过去从未消失，未来已经存在。
-  
+  name: "我的厉害的文档项目"
+  text: "一个文档站点"
+  tagline: 持续学习，持续进步
+  image:
+    src: /background.png
+    alt: 背景图片
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: http://www.jd.com
+      text: Markdown 示例
+      link: https://www.jd.com
     - theme: alt
-      text: API Examples
+      text: API 示例
       link: /api-examples
-    - theme: alt
-      text: document
-      link: /mydownload_link
 
 features:
   - title: Feature A
-    details: 特征一的详细描述
+    details: 特征1的详细描述
   - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 特征2的详细描述
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 特征3的详细描述
 ---
 
