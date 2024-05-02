@@ -3,9 +3,6 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs";	// 改成自己的路径
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/docs-demo/",
-  head: [["link", { rel: "stylesheet", href: "./.vitepress/theme/style.css" }]],
-  head: [["link", { rel: "icon", href: "/docs-demo/留心.png"} ]],
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
