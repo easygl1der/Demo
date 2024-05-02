@@ -3,7 +3,7 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs";	// 改成自己的路径
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/docs-demo/",
+  //base: "/docs-demo/",
   head: [["link", { rel: "stylesheet", href: "./styles/style.css" }]],
   title: "My Awesome Project",
   description: "A VitePress Site",
